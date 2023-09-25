@@ -9,17 +9,20 @@ I'd recommend installing powerline patched fonts: https://github.com/powerline/f
 This theme goes best with a solarized-dark terminal. (I use the VSCode-embedded terminal)
 
 To install, clone the repo & move the theme into your zsh themes directory: 
-```bash
+
+```console
 git clone https://github.com/soybean/cool-zsh.git; cd cool-zsh; cp cool.zsh-theme ~/.oh-my-zsh/themes
 ```
 
 Open your `.zshrc` and set the theme like so: 
-```bash
+
+```console
 ZSH_THEME="cool"
 ```
 
 Cleanup:
-```bash
+
+```console
 cd ..; rm -rf cool-zsh
 ```
 
