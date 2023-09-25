@@ -33,4 +33,25 @@ cd ..; rm -rf cool-zsh
 You can also experiment with other color gradients:
 
 
+If you'd like to customize the colors yourself, run this block of code in your terminal & you'll see the full 256 terminal colors:
+
+```console
+for COLOR in {0..255} 
+do
+    for STYLE in "38;5"
+    do
+        TAG="\033[${STYLE};${COLOR}m"
+        STR="${STYLE};${COLOR}"
+        echo -ne "${TAG}${STR}${NONE}  "
+    done
+    echo
+done
+```
+
+output:
+
+<img width="72" alt="Screen Shot 2023-09-25 at 11 43 05 AM" src="https://github.com/soybean/cool-zsh/assets/16643116/1abfc01a-c82d-406b-89b1-9c639f7d4d0b">
+
+
+
 [^1]: path to your themes directory may vary, replace `oh-my-zsh/themes` with your path
