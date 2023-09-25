@@ -4,5 +4,15 @@
 <img width="262" alt="Screen Shot 2023-09-25 at 11 14 43 AM" src="https://github.com/soybean/cool-zsh/assets/16643116/b41fd150-8695-4356-8732-e5a29fc5aed5">
 
 ### setup how-to
-This theme goes best with a solarized-dark terminal.
+I'd recommend installing powerline patched fonts: https://github.com/powerline/fonts
+
+This theme goes best with a solarized-dark terminal. (I use the VSCode-embedded terminal)
+
+To install, clone this repo: 
+`git clone https://github.com/soybean/cool-zsh.git; cd cool-zsh; cp cool.zsh-theme ~/.oh-my-zsh/themes`
+
+Open your `.zshrc` and set the theme like so: 
+`ZSH_THEME="cool"`
+
+
 
