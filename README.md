@@ -32,10 +32,6 @@ cd ..; rm -rf cool-zsh
 
 You can also experiment with other color gradients:
 
-<img width="1172" alt="Screen Shot 2023-09-25 at 11 51 54 AM" src="https://github.com/soybean/cool-zsh/assets/16643116/e44bb5ba-e136-4008-96f3-52acd25b376a">
-
-<img width="998" alt="Screen Shot 2023-09-25 at 11 51 20 AM" src="https://github.com/soybean/cool-zsh/assets/16643116/914c87de-f9de-4b43-9372-9a9908b85a67">
-
 <img width="499" alt="Screen Shot 2023-09-25 at 11 47 38 AM" src="https://github.com/soybean/cool-zsh/assets/16643116/c8938b0d-4652-4960-b388-2c32067c136a">
 
 <img width="470" alt="Screen Shot 2023-09-25 at 11 50 03 AM" src="https://github.com/soybean/cool-zsh/assets/16643116/ce6060e5-e826-4472-b716-465417887ea0">
