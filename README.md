@@ -8,7 +8,7 @@ I'd recommend installing powerline patched fonts: https://github.com/powerline/f
 
 This theme goes best with a solarized-dark terminal. (I use the VSCode-embedded terminal)
 
-To install, clone the repo & move the theme into your zsh themes directory: 
+To install, clone the repo & move the theme into your zsh themes directory: [^1].
 
 ```console
 git clone https://github.com/soybean/cool-zsh.git; cd cool-zsh; cp cool.zsh-theme ~/.oh-my-zsh/themes
@@ -27,4 +27,4 @@ cd ..; rm -rf cool-zsh
 ```
 
 
-
+[^1]: path to your themes directory may vary, replace `oh-my-zsh/themes` with your path
