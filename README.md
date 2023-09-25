@@ -1,11 +1,8 @@
 # cool: a zsh theme
 
 ### preview:
-<img width="262" alt="Screen Shot 2023-09-25 at 11 14 43 AM" src="https://github.com/soybean/cool-zsh/assets/16643116/b41fd150-8695-4356-8732-e5a29fc5aed5">
 
-inside many nested directories:
-
-<img width="503" alt="Screen Shot 2023-09-25 at 11 40 21 AM" src="https://github.com/soybean/cool-zsh/assets/16643116/cc76439f-b3f2-4160-a628-abfcd2d24cfe">
+<img width="229" alt="Screen Shot 2023-09-25 at 1 56 23 PM" src="https://github.com/soybean/cool-zsh/assets/16643116/7d4e993b-3ef5-4365-81cd-4d2879607dac">
 
 ## setup how-to
 I'd recommend installing powerline patched fonts: https://github.com/powerline/fonts
