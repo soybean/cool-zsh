@@ -5,12 +5,12 @@
 
 inside many nested directories:
 
-<img width="490" alt="Screen Shot 2023-09-25 at 11 38 02 AM" src="https://github.com/soybean/cool-zsh/assets/16643116/1768208e-d3e6-466c-9d72-ab971f093195">
+<img width="503" alt="Screen Shot 2023-09-25 at 11 40 21 AM" src="https://github.com/soybean/cool-zsh/assets/16643116/cc76439f-b3f2-4160-a628-abfcd2d24cfe">
 
 ## setup how-to
 I'd recommend installing powerline patched fonts: https://github.com/powerline/fonts
 
-This theme goes best with a solarized-dark terminal. (I use the VSCode-embedded terminal)
+This theme goes best with a solarized-dark terminal. (I use VSCode & set the color theme of my editor to solarized dark)
 
 #### To install, clone the repo & move the theme into your zsh themes directory: [^1].
 
