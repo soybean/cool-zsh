@@ -1,7 +1,8 @@
-# A radically cool zshell theme created by mel sawyer (@soybean)
+# a radically cool zshell theme created by mel sawyer (@soybean)
 
-gradient=(36 37 38 39 38 37 36 35 34)
+gradient=(36 37 38 39 75 111 75 39 38 37 36)
 iterator=1
+CURRENT_FG=black
 
 () {
   local LC_ALL="" LC_CTYPE="en_US.UTF-8"
@@ -46,10 +47,12 @@ render_git() {
 }
 
 render_directories() {
+  local len
+  len=(${#gradient[@]})
   IFS="/" read -rA PARTS <<< $(pwd)
-  for value in "${PARTS[@]:3}"
+  for value in "${PARTS[@]:1}"
     do
-      render_segment $gradient[(($iterator%11+1))] $CURRENT_FG $value
+      render_segment $gradient[(($iterator%$len+1))] $CURRENT_FG $value
       ((iterator++))
     done
 }
