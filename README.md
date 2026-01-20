@@ -1,4 +1,4 @@
-# cool: a zsh theme
+# cool: a zsh plugin
 
 ### preview:
 
